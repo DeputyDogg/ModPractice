@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties version="1.0">
+	<comment>Spanish (es_MX) Localization File</comment>
+	<entry key="tile.BaseBlock.name">Blocko del Beso</entry>
+</properties>

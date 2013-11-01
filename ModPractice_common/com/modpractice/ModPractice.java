@@ -1,5 +1,7 @@
 package com.modpractice;
 
+import com.modpractice.blocks.ModBlocks;
+import com.modpractice.core.handler.LocalizationHandler;
 import com.modpractice.core.proxy.CommonProxy;
 import com.modpractice.lib.References;
 
@@ -33,7 +35,8 @@ public class ModPractice {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		
+		LocalizationHandler.init();
+		ModBlocks.init();
 	}
 	
 	@EventHandler
